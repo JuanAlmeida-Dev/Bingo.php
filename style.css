@@ -1,0 +1,89 @@
+@font-face{
+    font-family: 'made';
+    src: url(fonts/marinforddemo.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*botoes*/
+div.botoes{
+    margin: 0;
+    padding: 20px;
+}
+/*sytle do botao*/
+input{
+    background-color: #40e0d0;
+    border: none;
+    color: black ;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    outline: none;
+}
+input:hover{
+    background-color: #35bbad;
+    color: white;
+    box-shadow: 0 10px 16px 0 rgb(201, 201, 201),0 10px 20px 0 rgb(201, 201, 201);
+}
+input:active{
+    background-color: #35bbad;
+    transform: translateY(4px);
+}
+/*cartela*/
+.fundo{
+    background-color: #40e0d0 ;
+    padding: 10px;
+    height: 500px;
+    width: 225px;
+    margin: 10px 20px;
+    align-items: center;
+    float: left;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #00acee;
+
+}
+/*letras p*/
+.letra{
+    font-family: 'made';
+    text-align: center;
+    font-size: 30px;
+}
+/*ultimo num sorteado*/
+.ultimo{
+    font-family: 'arial';
+    display: inline-block;
+    align-items: center;
+    margin: 5px 25px ;
+    font-size: 35px;
+    color: #120a8f;
+    text-align: center;
+}
+/*bolinha sorteada*/
+.proximo{
+    background-image: url(imgs/bola.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 40px;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    margin: 5px 25px ;
+    font-family: 'arial';
+    font-size: 23px;
+}
+/*img de fundo*/
+body{
+    background-image: url(imgs/bingo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
